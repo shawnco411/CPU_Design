@@ -1,0 +1,7 @@
+verilog isim_temp "lilCompenent.v"
+verilog isim_temp "all mux.v"
+verilog isim_temp "newCopenent.v"
+verilog isim_temp "mainCompenent.v"
+verilog isim_temp "mips.v"
+verilog isim_temp "globalTest.v"
+verilog isim_temp "D:/ISE/14.7/ISE_DS/ISE//verilog/src/glbl.v"

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "D:/ISE project/mypipeline/globalTest_isim_beh.exe" -prj "D:/ISE project/mypipeline/globalTest_beh.prj" "work.globalTest" "work.glbl" 

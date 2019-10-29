@@ -1,0 +1,64 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "D:/ISE project/mypipeline/globalTest_isim_beh.exe" -prj "D:/ISE project/mypipeline/globalTest_beh.prj" "work.globalTest" "work.glbl" 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:/ISE project/mypipeline/lilCompenent.v" into library work
+Analyzing Verilog file "D:/ISE project/mypipeline/all mux.v" into library work
+Analyzing Verilog file "D:/ISE project/mypipeline/newCopenent.v" into library work
+Analyzing Verilog file "D:/ISE project/mypipeline/mainCompenent.v" into library work
+Analyzing Verilog file "D:/ISE project/mypipeline/mips.v" into library work
+Analyzing Verilog file "D:/ISE project/mypipeline/globalTest.v" into library work
+Analyzing Verilog file "D:/ISE/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "D:/ISE project/mypipeline/mips.v" Line 98: Port in3 is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/ISE project/mypipeline/mips.v" Line 100: Port rdata1 is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/ISE project/mypipeline/mips.v" Line 109: Port m2 is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/ISE project/mypipeline/mips.v" Line 120: Port in6 is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/ISE project/mypipeline/mips.v" Line 123: Port RegDst is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/ISE project/mypipeline/mips.v" Line 125: Port m2 is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/ISE project/mypipeline/mips.v" Line 126: Port m2 is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/ISE project/mypipeline/mips.v" Line 132: Port in6 is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/ISE project/mypipeline/mips.v" Line 135: Port RegDst is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/ISE project/mypipeline/mips.v" Line 143: Port in7 is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/ISE project/mypipeline/mips.v" Line 147: Port ALUSrc is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/ISE project/mypipeline/mips.v" Line 150: Port m3 is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/ISE project/mypipeline/mips.v" Line 151: Port m3 is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/ISE project/mypipeline/mips.v" Line 158: Port m5 is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/ISE project/mypipeline/mips.v" Line 159: Port m5 is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/ISE project/mypipeline/mips.v" Line 160: Port m4 is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/ISE project/mypipeline/mips.v" Line 161: Port m4 is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/ISE project/mypipeline/mips.v" Line 162: Port m2 is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/ISE project/mypipeline/mips.v" Line 163: Port m2 is not connected to this instance
+Completed static elaboration
+Compiling module PC
+Compiling module PctoImAddr
+Compiling module IM
+Compiling module IFU
+Compiling module register17
+Compiling module controler
+Compiling module sign_ext
+Compiling module unsign_ext
+Compiling module mux2
+Compiling module mux4
+Compiling module sub
+Compiling module newpc
+Compiling module GRF
+Compiling module ALU
+Compiling module AlutoDmAddr
+Compiling module bit16mux2
+Compiling module DM
+Compiling module mux8
+Compiling module bit5mux4
+Compiling module checkInstr
+Compiling module forward
+Compiling module stallmaker
+Compiling module mips
+Compiling module globalTest
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 18 sub-compilation(s) to finish...
+Compiled 25 Verilog Units
+Built simulation executable D:/ISE project/mypipeline/globalTest_isim_beh.exe
+Fuse Memory Usage: 33004 KB
+Fuse CPU Usage: 3124 ms

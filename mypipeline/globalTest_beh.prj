@@ -1,0 +1,7 @@
+verilog work "lilCompenent.v"
+verilog work "all mux.v"
+verilog work "newCopenent.v"
+verilog work "mainCompenent.v"
+verilog work "mips.v"
+verilog work "globalTest.v"
+verilog work "D:/ISE/14.7/ISE_DS/ISE//verilog/src/glbl.v"

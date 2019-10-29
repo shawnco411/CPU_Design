@@ -1,0 +1,56 @@
+ISim log file
+Running: D:\ISE project\mypipeline\globalTest_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb D:/ISE project/mypipeline/globalTest_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                 900@00003000: $ 1 <= ffff0000
+# run all
+                1100@00003004: $ 1 <= ffff1234
+                1300@00003008: $ 2 <= 00000034
+                1500@0000300c: $ 1 <= ffff1706
+                1700@00003010: $ 2 <= 00000006
+                2100@00003018: $ 2 <= 00000006
+Stopped at time : 595300 ns : File "D:/ISE project/mypipeline/newCopenent.v" Line 48
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                 900@00003000: $ 1 <= ffff0000
+# run all
+                1100@00003004: $ 1 <= ffff1234
+                1300@00003008: $ 2 <= 00000034
+                1500@0000300c: $ 1 <= ffff1706
+                1700@00003010: $ 2 <= 00000006
+                1900@00003014: $ 1 <= fffe2e0c
+                2100@00003018: $ 2 <= 0000000c
+Stopped at time : 1185900 ns : File "D:/ISE project/mypipeline/mainCompenent.v" Line 285
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                 900@00003000: $ 1 <= ffff0000
+# run all
+                1100@00003004: $ 1 <= ffffffff
+                1300@00003008: $ 2 <= 00003018
+                1700@0000300c: $ 3 <= 00003014
+                2100@00003014: $12 <= 0000ffff
+Stopped at time : 731300 ns : File "D:/ISE project/mypipeline/all mux.v" Line 64
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                 900@00003000: $ 3 <= 00000000
+# run all
+                1100@00003004: $ 1 <= 0000ffff
+                1300@00003008: $ 2 <= 00003018
+                1700@0000300c: $ 3 <= 00003014
+                2100@00003018: $13 <= 0000ffff
+Stopped at time : 1180500 ns : File "D:/ISE project/mypipeline/mainCompenent.v" Line 304

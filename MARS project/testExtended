@@ -1,0 +1,4 @@
+.data
+.text
+array:
+bnez $t1,array

@@ -1,0 +1,28 @@
+Command line:
+   signsll_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  54792
+
+Fri Jan 12 12:45:03 2018
+
+
+ Elaboration Time: 0.453125 sec
+
+ Current Memory Usage: 850.981 Meg
+
+ Total Signals          : 16
+ Total Nets             : 21
+ Total Signal Drivers   : 7
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 9
+ Total Traceable Variables  : 19
+ Total Scalar Nets and Variables : 105
+
+ Total Simulation Time: 0.484375 sec
+
+ Current Memory Usage: 850.981 Meg
+
+Fri Jan 12 12:45:13 2018
+
