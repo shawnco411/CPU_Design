@@ -1,3 +1,3 @@
-*.js linguist-language=Verilog HDL
-*.css linguist-language=Verilog HDL
-*.html linguist-language=Verilog HDL
+*.js linguist-language=Verilog
+*.css linguist-language=Verilog
+*.html linguist-language=Verilog
