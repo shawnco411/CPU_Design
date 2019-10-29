@@ -3,7 +3,7 @@
 
 ## 项目介绍
 
-该项目包含了计算机组成课程设计的多次项目（MIPS汇编程序设计、Logisim单周期CPU、Verilog单周期CPU、Verilog流水线CPU）代码以及设计文档。
+该项目包含了计算机组成课程设计的多次项目代码（MIPS汇编程序设计、Verilog流水线CPU）以及设计文档（Logisim单周期CPU、Verilog单周期CPU、Verilog流水线CPU）。
 
 其中流水线CPU满足以下要求：
 
